@@ -1,7 +1,7 @@
 # Project: CapstoneProject
 - **Project Name:** Shopping-Cart-Backend
 - **Project By:** Bijay Kadariya
-- [**LINK TO GITHUB**]()
+- [**LINK TO GITHUB**](https://github.com/bijaykadariya123/capstone-Backend)
 - [**LINK TO DEPLOYED WEBSITE**]()
 - **List of Technologies used:** Python, Django ,Neon,Tailwind
 
