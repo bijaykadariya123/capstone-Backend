@@ -4,7 +4,7 @@
 set -o errexit
 
 ## Install dependencies via pip:
-pip install -r dependencies.txt
+pip3 install -r dependencies.txt
 
 ## Run migration just in case:
 python manage.py migrate
