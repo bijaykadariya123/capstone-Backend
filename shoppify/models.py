@@ -6,6 +6,6 @@ class Shop(models.Model):
     name = models.CharField(max_length=200)
     price = models.DecimalField(max_digits=100, decimal_places=2)
     year = models.IntegerField()
-    image = models.CharField()
+    image = models.CharField(max_length=65535)
     origin = models.CharField(max_length=200)
     available_items = models.IntegerField()
