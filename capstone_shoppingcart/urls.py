@@ -15,8 +15,16 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
+from rest_framework import routers
+from shoppify.views import ShopViewSet
+
+# create a new router
+router = routers.DefaultRouter()
+# register TodoViewSet with the router
+router.register(r"shops", ShopViewSet)
 
 urlpatterns = [
+    path ("", include(router.urls)),
     path('admin/', admin.site.urls),
 ]
